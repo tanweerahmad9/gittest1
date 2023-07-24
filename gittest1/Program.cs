@@ -13,7 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection("use time stamp");
 app.UseStaticFiles();
 
 app.UseRouting("HELLO Tanweer");
